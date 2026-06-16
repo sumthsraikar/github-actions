@@ -9,6 +9,6 @@ jobs:
             runs-on: ubuntu-latest
             steps:
             - name: today date
-              run: date
+              #run: date
               run: pwd
 
