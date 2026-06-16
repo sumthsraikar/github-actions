@@ -27,7 +27,7 @@ jobs:
             needs: branch_name
             steps:
           
-            - name: checkout
+            - name: checkoutw
               uses: actions/checkout@v4   
             - name: ls
               run: ls -la
