@@ -11,12 +11,12 @@ jobs:
             - name: today date
               run: date
       pwd:
-            runs-on: ubuntu-latest
+            runs-on: self-hosted
             steps:
             - name: show present dir  
               run: pwd
       branch_name:
-            runs-on: ubuntu-latest
+            runs-on: self-hosted
             steps:
             - name: print baranch names  
               run: echo $GITHUB_REF
