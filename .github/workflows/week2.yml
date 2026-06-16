@@ -22,4 +22,13 @@ jobs:
             steps:
             - name: print baranch names  
               run: echo $GITHUB_REF
+      checkout:
+            runs-on: self-hosted
+            steps:
+          
+            - name: checkout
+              uses: actions/checkout@v4   
+            - name: ls
+              run: ls -la
+
 
