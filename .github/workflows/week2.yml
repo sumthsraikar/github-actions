@@ -12,11 +12,13 @@ jobs:
               run: date
       pwd:
             runs-on: self-hosted
+            needs: date
             steps:
             - name: show present dir  
               run: pwd
       branch_name:
             runs-on: self-hosted
+            needs: pwd
             steps:
             - name: print baranch names  
               run: echo $GITHUB_REF
