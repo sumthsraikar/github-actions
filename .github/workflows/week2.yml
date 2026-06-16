@@ -24,6 +24,7 @@ jobs:
               run: echo $GITHUB_REF
       checkout:
             runs-on: self-hosted
+            needs: branch_name
             steps:
           
             - name: checkout
