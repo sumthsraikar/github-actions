@@ -12,4 +12,6 @@ jobs:
               run: date
             - name: show present dir  
               run: pwd
+            - name: print baranch name  
+              run: echo $GITHUB_REF
 
