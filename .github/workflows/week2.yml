@@ -18,6 +18,6 @@ jobs:
       branch_name:
             runs-on: ubuntu-latest
             steps:
-            - name: print baranch name  
+            - name: print baranch names  
               run: echo $GITHUB_REF
 
