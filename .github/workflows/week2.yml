@@ -5,13 +5,19 @@ on:
  workflow_dispatch:
 
 jobs:
-      hello:
+      date:
             runs-on: ubuntu-latest
             steps:
             - name: today date
               run: date
+      pwd:
+            runs-on: ubuntu-latest
+            steps:
             - name: show present dir  
               run: pwd
+      branch_name:
+            runs-on: ubuntu-latest
+            steps:
             - name: print baranch name  
               run: echo $GITHUB_REF
 
