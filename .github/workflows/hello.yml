@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Print Hello World
-        run: echo "Hello sdsdWorld 23"
+        run: echo "Hello ssdWorld 23"
