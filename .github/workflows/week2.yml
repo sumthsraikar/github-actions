@@ -31,5 +31,8 @@ jobs:
               uses: actions/checkout@v4   
             - name: ls
               run: ls -la
-
+            - name: checkout
+              uses: actions/checkout@v4   
+            - name: ls
+              run: ls -la
 
